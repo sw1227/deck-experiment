@@ -1,6 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import BasicMap from "./views/BasicMap";
+import GeoJsonMap from "./views/TokyoGeoJson";
 
 
 function Index() {
@@ -14,6 +15,9 @@ function Index() {
         <li>
           <Link to="/about/">About</Link>
         </li>
+        <li>
+          <Link to="/geojson">GeoJSON</Link>
+        </li>
       </ul>
     </div>
   );
@@ -26,6 +30,7 @@ function AppRouter() {
       <div>
         <Route path="/" exact component={Index} />
         <Route path="/about/" component={BasicMap} />
+        <Route path="/geojson/" component={GeoJsonMap} />
       </div>
     </Router>
   );
