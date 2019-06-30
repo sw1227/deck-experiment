@@ -867,7 +867,7 @@
   version "7.1.7"
   resolved "https://registry.yarnpkg.com/@deck.gl/mapbox/-/mapbox-7.1.7.tgz#bb59bd412c9c7c2d0147506ba8c2965089ec7fed"
 
-"@deck.gl/mesh-layers@7.1.7":
+"@deck.gl/mesh-layers@7.1.7", "@deck.gl/mesh-layers@^7.1.7":
   version "7.1.7"
   resolved "https://registry.yarnpkg.com/@deck.gl/mesh-layers/-/mesh-layers-7.1.7.tgz#e81c63d2042e74484446560a6b144bab4885d589"
   dependencies:
@@ -1038,15 +1038,47 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
+"@loaders.gl/core@1.1.6", "@loaders.gl/core@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@loaders.gl/core/-/core-1.1.6.tgz#6963e14e93663d9582238f39e70607b01a172c36"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+
 "@loaders.gl/core@^1.0.3":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@loaders.gl/core/-/core-1.1.5.tgz#2d9c497628c573fa68480754a0e6b385336979ea"
   dependencies:
     "@babel/runtime" "^7.3.1"
 
+"@loaders.gl/gltf@^1.0.3":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@loaders.gl/gltf/-/gltf-1.1.6.tgz#12f7c643c3754dab5aad6f3f0e4e790b40328381"
+  dependencies:
+    "@loaders.gl/core" "1.1.6"
+    "@loaders.gl/images" "1.1.6"
+    "@loaders.gl/loader-utils" "1.1.6"
+
+"@loaders.gl/images@1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@loaders.gl/images/-/images-1.1.6.tgz#21dd3238c97ad1164f7c0ed43d18edaec49d97e1"
+
 "@loaders.gl/images@^1.0.3":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@loaders.gl/images/-/images-1.1.5.tgz#50636376db4235d993e98144809020714429bf5a"
+
+"@loaders.gl/loader-utils@1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@loaders.gl/loader-utils/-/loader-utils-1.1.6.tgz#8379227280f08156a1f6f900fa45122c6fdbfb9c"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+
+"@luma.gl/addons@^7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@luma.gl/addons/-/addons-7.1.1.tgz#ab5c76b917031f9eaf48fea59950ab63c1d6553c"
+  dependencies:
+    "@loaders.gl/gltf" "^1.0.3"
+    "@luma.gl/constants" "7.1.1"
+    math.gl "^2.3.0"
 
 "@luma.gl/constants@7.1.1":
   version "7.1.1"

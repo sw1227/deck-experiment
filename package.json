@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@deck.gl/mesh-layers": "^7.1.7",
+    "@loaders.gl/core": "^1.1.6",
+    "@luma.gl/addons": "^7.1.1",
     "d3": "^5.9.7",
     "deck.gl": "^7.1.7",
     "react": "^16.8.6",

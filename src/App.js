@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import BasicMap from "./views/BasicMap";
 import GeoJsonMap from "./views/TokyoGeoJson";
+import Scenegraph from "./views/Scenegraph";
 
 
 function Index() {
@@ -18,6 +19,9 @@ function Index() {
         <li>
           <Link to="/geojson">GeoJSON</Link>
         </li>
+        <li>
+          <Link to="/scenegraph">Scenegraph</Link>
+        </li>
       </ul>
     </div>
   );
@@ -31,6 +35,7 @@ function AppRouter() {
         <Route path="/" exact component={Index} />
         <Route path="/about/" component={BasicMap} />
         <Route path="/geojson/" component={GeoJsonMap} />
+        <Route path="/scenegraph/" component={Scenegraph} />
       </div>
     </Router>
   );
